@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mz 后台管理系统</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/lib/layui/css/layui.css">
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+
+<body>
+
+    <div class="layui-form login" id="login" action="">
+        <div class="layui-form-item">
+            <label class="layui-form-label">用户名</label>
+            <div class="layui-input-inline">
+                <input type="text" name="userName" required lay-verify="required" placeholder="请输入用户名" autocomplete="off"
+                    class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+            <div class="layui-input-inline">
+                <input type="password" name="password" required lay-verify="required" placeholder="请输入密码" autocomplete="off"
+                    class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">昵&nbsp;&nbsp;&nbsp;&nbsp;称</label>
+            <div class="layui-input-inline">
+                <input type="text" name="nickName" required lay-verify="required" placeholder="请输入昵称" autocomplete="off"
+                    class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">管&nbsp;&nbsp;&nbsp;&nbsp;理</label>
+            <div class="layui-input-inline">
+                <input type="text" name="isAdmin" required lay-verify="required" placeholder="请输入用户名" autocomplete="off"
+                    class="layui-input">
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" id="btn" lay-submit lay-filter="formDemo">注册</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/lib/layui/layui.all.js"></script>
+    <script src="/js/register.js"></script>
+</body>
+
+</html>
